@@ -63,24 +63,28 @@ $(function () {
     // example usage: createCannon(side, position, delay, width, height)
 
 
-    createPlatform(50, 50, 100, 100);
+    createPlatform(51, 460, 90, 1, 500);
+    createPlatform(26, 400, 90, 1, 200);
+    createPlatform(150, 600, 60, 1, 100);
+    createPlatform(300, 250, 80, 1, 100);
+    createPlatform(450, 200, 100, 1, 100);
 
-    createPlatform(30, 60, 600, 200);
-    
-    createPlatform(76, 45, 33, 67);
-    
     createCollectable("steve", 200, 170, 6, 0.7);
-    
     createCollectable("grace", 100, 40, 9, 0.2);
-
     createCollectable("max", 600, 20, 3, 0.4);
-    
-    createCannon(2, 33, 0.6, 400, 80)
-    
-    createCannon(6, 63, 0.2, 700, 65)
+    createCollectable("diamond", 350, 50, 5, 0.6);
+    createCollectable("kennedi", 500, 120, 4, 0.3);
 
-    createCannon(5, 89, 0.9, 533, 12)
-
+    
+    createCannon("right", 500, 800, 10, 35);
+    createCannon("left", 700, 800, 10, 35);
+    createCannon("top", 810, 800, 10, 35);
+    createCannon("bottom", 700, 800, 10, 35);
+    createCannon("left", 500, 800, 10, 35);
+    
+    
+    
+    
     
   }
 
